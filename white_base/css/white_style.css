@@ -1,0 +1,650 @@
+@charset "utf-8";
+
+html,body {height: 100%;}
+
+
+
+h1{
+    font-size: 75px;
+    font-weight: bold;
+
+   
+}
+
+/*-------------------------------------------*/
+
+
+
+  header {
+    
+    height: 65px;
+    width: 100%;
+    background-color: rgb(197, 241, 255);
+
+    margin-top: -15px; /*空白消す*/
+  }
+  
+  header .container {
+    width:90%;
+    margin:0 auto;
+  }
+  
+  .logo {
+    width: 85px;
+    margin: 25px 25px;
+    position: relative;
+    top:-20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-list {
+    float: right;
+    background-color: rgb(197, 241, 255);
+    transition: all 1s;
+
+    font-size: small;
+    font-weight: bold;
+    
+  }
+  
+  .header-list:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: black;
+    display: block;
+    text-decoration: none;
+  }
+
+  header li {
+    list-style: none;
+    float: right;
+  }
+
+            
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+
+.top {
+    background-color: rgb(197, 241, 255);
+    height: 1300px;
+
+
+}
+
+.top .container {
+    width: 90%;
+    margin: 0 auto;
+
+    position: relative;
+    top:40px;
+}
+
+.top h1 {
+    
+    font-size: 75px;
+    font-weight: bold;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/*-------------------------------------------*/
+.hutatudehitotu {
+    width: 90%;
+    margin:0 auto;
+    /*background-color: rgb(197, 241, 255);*/
+    background-color: rgb(197, 241, 255);
+
+    position: relative;
+
+    padding-top: 20px;
+    
+}
+
+.top-title {
+    position: absolute;
+    top:-15px;
+    
+}
+
+/**/
+.top-left {
+    /*background-color: rgb(197, 241, 255);*/
+    background-color: rgb(197, 241, 255);
+
+    display: inline-block; /*横並びにするのにインラインブロックにする必要があるはず*/
+    
+    /*width: 600px;*/
+    
+    /*margin: 15px 0 30px -135px;*/
+    margin: 0 0 0 -135px;
+    height: 400px;
+
+    /*font-family:Verdana, Geneva, Tahoma, sans-serif;*/
+
+    position: relative;
+    
+
+    width: 60%;
+    /*
+    padding-top : 100% ;
+    */
+    
+    /*
+    max-height: 300px;
+    
+
+    position: relative;
+    top:-100px;
+    */
+
+    /*float:left; インラインにしたら、いらん。勝手にこれになる*/
+}
+
+.top-right {
+    /*background-color: rgb(197, 241, 255);*/
+    background-color: rgb(197, 241, 255);
+
+    display: inline-block;/*横並びにするのにインラインブロックにする必要があるはず*/
+
+
+    padding: 40px 0 30px 65px;
+    width: 300px;
+    height: 400px;
+    /*
+    margin: 30px 0 30px 175px;
+    padding:30px 0 30px 0px;
+    width: 300px;
+    height: 400px;
+    */
+    width: 50%;
+
+    position: absolute;
+    /*top:-55px;*/
+
+    line-height: 30px;
+
+    /*最初から横に並んでる方法がわからん。なぜか、ずれるのよね*/
+    /*かつ、スクリーン縮めた時に、いい感じに変わってほしい、多分autoとかmaxとかのやつ。自動で。*/
+    
+    /*
+    position: absolute;
+    
+    
+    /*
+    width: 40%;
+    */
+    /*
+    float: right;
+    */
+}
+
+.top-right h4 {
+    max-width: 300px;
+    max-height: 400px;
+}
+
+/*-------------------------------------------*/
+
+.top-bottom {
+    width: 100%;
+    margin: 0 auto;
+    /*background-color: rgb(197, 241, 255);*/
+    background-color: rgb(197, 241, 255);
+}
+
+.top-bottom img {
+    width: 30%;
+    margin: 100px auto;
+
+    display: block;
+}
+
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+
+.wrapper1 {
+  background: rgb(45, 235, 45);
+  height: 1500px;
+  
+}
+
+.wrapper1 .heading {
+  padding-top: 3px; /*これないと、空白あく*/
+  margin-left:100px ;
+  width:50%;
+}
+
+.wrapper1-img1 img {
+  width: 25%;
+  margin: 150px auto;
+
+  display: block;
+
+  
+}
+
+.wrapper1-img2 {
+width:50%;
+float:left;
+display: inline-block; /*インラインブロック*/
+}
+.wrapper1-img2 img {
+width: 50%;
+margin: 100px auto;
+display: block; /*ブロック*/
+}
+
+.wrapper1-img3 {
+width:50%;
+float:left;
+display: inline-block;  /*インラインブロック*/
+}
+.wrapper1-img3 img {
+width: 50%;
+margin: 100px auto;
+display: block; /*ブロック*/
+}
+
+/*-wrapper------------------------------------------*/
+/*-wrapper------------------------------------------*/
+/*-wrapper------------------------------------------*/
+/*-wrapper------------------------------------------*/
+/*-wrapper------------------------------------------*/
+
+
+.wrapper2 {
+    background: rgb(232, 235, 192);
+    height: 950px;
+
+    
+}
+
+.wrapper2 .container{
+    position: relative;
+    top:100px; /*線からの空白*/
+}
+
+.wrapper2 .heading {
+    padding-top: 3px; /*これないと、空白あく*/
+    margin-left: 175px ;
+
+    width:50%;
+    
+    line-height: 80px;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons {
+
+    width: 65%;
+    margin: 130px auto;
+    border-radius: 100px;
+
+    position: relative;
+    top:-50px; /*線からの空白*/
+    
+}
+
+
+
+.button {
+    float: left;
+    
+    width: 20%;
+    
+
+    text-align: center;/*意味あるかわからん*/
+
+    
+    
+    /*
+    height: 250px; /*--正方形にする方法しらべたい--
+    */
+    
+
+
+    /*background-color: rgb(206, 252, 206);*/
+    /*------------------------------------------- background-color: rgb(206, 252, 206); -------------------------------------------*/
+
+    margin: 5px 20px; /*箱との感覚*/
+    border-radius: 10px;
+
+    /*
+    z-index: 2;
+    */
+
+    position:relative;
+  }
+
+  /*
+  .button-icon{
+    position:absolute;
+    text-align: center;
+
+    z-index: 3;
+
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+
+    
+  }
+  */
+  
+  .click {
+    display: block;
+    
+    background-color: white;
+    border-radius: 10px;
+
+    text-align: center;
+    
+    
+    width : 100% ;
+    padding-top : 100% ;
+    background-color: white;
+
+    line-height: 100%;
+    /*
+    これもう、背景被せるしかないねんけど
+    */
+
+    /*padding: 50px 0 ;*/
+    /*
+    height: 200px;
+    */
+    
+
+    
+    /*
+    text-align:left;
+    height: 200px;
+    */
+    
+
+    /*
+    line-height: 200px; 行間が変わる
+    /*
+    padding: 100px; 文字だけ左上とかできるんかな
+    margin: 20px;
+
+    z-index: 1; なんで変わらんねん？
+    */
+
+    transition:all 1s;
+    text-decoration: none;
+    color: black;
+
+
+  }
+
+  .button :hover {
+    position: relative;
+    top: -15px;
+    background-color: rgb(199, 199, 199);
+    
+  }
+
+  .button :active{
+
+  }
+
+ 
+
+
+
+  /*.button a:hover {
+    background-color: green;
+  }
+  */
+
+
+
+
+  
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+
+.wrapper3 {
+    background: rgb(244, 250, 244);
+    height: 800px;
+    padding-top: 30px;
+
+    /* padding-top: 3px; /*これないと、空白あく*/
+}
+
+.wrapper3 .container1 {
+    width: 75%;
+    margin:0 auto;
+    margin-top: 50px;
+    position: relative;
+    
+}
+
+/**/
+.wrapper3-heading {
+    padding: 0　0 -30px 0;
+
+    /*margin-left:175px ;*/
+
+    /* position: absolute; */
+    /*top: 75px;*/
+
+    margin-top: 50px;
+
+    width:50%;
+    /*float:left;*/
+    display:block;
+
+    /*background-color: red;*/
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-size:60px;/* 全体の設定があるから上書きできない。h2 h1とかで変えたり、一部ずつの設定にするしかない*/
+
+    float:left;
+    
+}
+
+/*-------------------------------------------*/
+.wrapper3-image {
+
+  background-color: aqua;
+  
+  display: inline-block;
+
+  width:50%;
+
+  /*position: relative;*/
+
+  float:left;
+
+}
+
+/**/
+.wrapper3-image img {
+
+position: absolute;
+
+
+/*width: 70%;*/
+/*margin: 0 auto;*/
+width: 40%;
+margin:0 0 0 70px;
+
+display: inline-block;
+
+float:left;
+}
+
+/*-------------------------------------------*/
+.wrapper3-phrase {
+    display: block;
+    
+    /*background-color: blue;*/
+
+    width:50%;
+    /* position: absolute; */
+
+    font-size: 18px;
+  
+}
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+
+
+
+
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+
+.wrapper4 {
+  background: rgb(33, 33, 51);
+  height: 1200px;
+  color: white;
+  padding-top: 25px;
+  
+}
+
+.wrapper4 .container{
+width:80%;
+margin:0 auto;
+}
+
+
+
+.wrapper4-heading-block{
+width:50%;
+margin:0 auto;
+float:left;
+
+display: inline-block;
+
+
+
+}
+
+.wrapper4-heading {
+  padding-top: 3px; /*これないと、空白あく*/
+
+  width:90%;
+
+  margin-left:50px ;
+  /* position: relative; */
+  top: 75px;
+
+
+  font-size:50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+  display: block;
+}
+
+.wrapper4-phrase-block{
+width:50%;
+/* float:left;　下の写真を真ん中に奥には、これで引き寄せたらあかん */
+
+
+display: inline-block;
+}
+
+.wrapper4-phrase{
+width:65%;
+margin: 70px auto;
+padding-left: 60px;
+
+font-size: 19px;
+}
+
+
+
+
+.wrapper4-img1 img {
+  width: 38%;
+  margin: 100px auto;
+
+  display: block;
+  z-index: 1;
+
+}
+
+
+
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+
+
+.footer-first {
+  background: #fff;
+  height: 600px;
+  
+  font-size: 85%;
+  padding-top: 100px;/*マージンじゃへんなるのなぜなんやろまあええわ*/
+
+}
+.footer-first .container{
+  width:90%;
+  margin:0 auto;
+}
+
+.footer-5retu {
+  width:18%;
+
+  display: inline-block;
+
+
+}
+
+.footer-second {
+    background: #fff;
+	  height: 60px;
+    text-align: center;
+    font-size: 85%;
+    font-weight: bold;
+	
+}
+
+.footer-list {
+
+  top:540px;
+	float: center;
+	padding: 10px;
+    list-style: none;
+    padding-bottom: 3px;
+
+    
+}
+
+.footer-list li {
+    list-style: none;
+}
+
+footer .container{
+
+}
+
+
+/*-------------------------------------------*/
