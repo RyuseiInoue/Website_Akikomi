@@ -73,7 +73,7 @@ h1{
 
 .top {
     background-color: rgb(197, 241, 255);
-    height: 1300px;
+    height: 100%;
 
 
 }
@@ -659,3 +659,6 @@ footer .container{
   transform: translateY(-50%) translateX(-50%);
   -webkit-transform: translateY(-50%) translateX(-50%);
 }
+
+
+
